@@ -1,0 +1,23 @@
+[
+  {
+  "name": "魔爪",
+  "logo": "",
+  "desc": "",
+  "nsfw": false,
+  "api": {
+    "root": " https://mozhuazy.com",
+    "path": "/api.php/provide/vod/?ac=list"
+  }
+}
+
+  {
+  "name": "蛋播",
+  "logo": "",
+  "desc": "",
+  "nsfw": false,
+  "api": {
+    "root": " https://caiji.dbzy.tv",
+    "path": "/api.php/provide/vod/at/josn/"
+  }
+}
+]
