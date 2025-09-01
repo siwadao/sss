@@ -1,23 +1,632 @@
 [
-  {
-  "name": "魔爪",
-  "logo": "",
-  "desc": "",
-  "nsfw": false,
-  "api": {
-    "root": " https://mozhuazy.com",
-    "path": "/api.php/provide/vod/?ac=list"
-  }
-}
-
-  {
-  "name": "蛋播",
-  "logo": "",
-  "desc": "",
-  "nsfw": false,
-  "api": {
-    "root": " https://caiji.dbzy.tv",
-    "path": "/api.php/provide/vod/at/josn/"
-  }
-}
+	{
+		"id": "️jisuziyuan",
+		"name": "️极速资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://jszyapi.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"id": "aikunziyuan",
+		"name": "爱坤资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://ikunzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "baiduziyuan",
+		"name": "百度资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://api.apibdzy.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "feifanziyuan",
+		"name": "非凡资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://cj.ffzyapi.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"id": "maotaiziyuan",
+		"name": "茅台资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://caiji.maotaizy.cc",
+			"path": "/api.php/provide/vod/at/josn/"
+		},
+		"status": true
+	},
+	{
+		"id": "xiaomianyangziyuan",
+		"name": "小绵羊资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://vs.okcdn100.top",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "wujinziyuan",
+		"name": "无尽资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.wujinapi.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "Ukuziyuan",
+		"name": "U酷资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://api.ukuapi.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "liangziziyuan",
+		"name": "量子资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://cj.lziapi.com",
+			"path": "/api.php/provide/vod/from/lzm3u8"
+		},
+		"status": true
+	},
+	{
+		"id": "modouziyuan",
+		"name": "魔都资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://www.mdzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "niuniuziyuan",
+		"name": "牛牛资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://api.niuniuzy.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "dianyingtiantang",
+		"name": "电影天堂",
+		"nsfw": false,
+		"api": {
+			"root": "http://caiji.dyttzyapi.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"id": "wolongziyuan",
+		"name": "卧龙资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://collect.wolongzyw.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "doubanziyuan",
+		"name": "豆瓣资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://caiji.dbzy5.com",
+			"path": "/api.php/provide/vod/at/josn/"
+		},
+		"status": true
+	},
+	{
+		"id": "wangwangduanju",
+		"name": "旺旺短剧",
+		"nsfw": false,
+		"api": {
+			"root": "https://wwzy.tv",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "yayaziyuan",
+		"name": "丫丫资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://cj.yayazy.net",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "piaolingyingyuan",
+		"name": "飘零影院",
+		"nsfw": false,
+		"api": {
+			"root": "https://p2100.net",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "baofengziyuan",
+		"name": "暴风资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://bfzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "360ziyuan",
+		"name": "360资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://360zy.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "youzhiziyuanku",
+		"name": "优质资源库",
+		"nsfw": false,
+		"api": {
+			"root": "http://api.1080zyku.com",
+			"path": "/inc/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "suboziyuan",
+		"name": "速播资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://subocj.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"id": "zuidaziyuan",
+		"name": "最大资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://zuidazy.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "tianyayingshiziyuan",
+		"name": "天涯影视资源",
+		"nsfw": false,
+		"api": {
+			"root": "https://tyyszyapi.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "yinghuaziyuan",
+		"name": "樱花资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://m3u8.apiyhzy.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "shandianziyuan",
+		"name": "闪电资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://sdzyapi.com",
+			"path": "/api.php/provide/vod/from/sdm3u8"
+		},
+		"status": true
+	},
+	{
+		"id": "hongniuziyuan",
+		"name": "红牛资源",
+		"nsfw": false,
+		"api": {
+			"root": "http://hongniuzy2.com",
+			"path": "/api.php/provide/vod/from/hnm3u8"
+		},
+		"status": true
+	},
+	{
+		"id": "huangsecangkuziyuan",
+		"name": "黄色仓库资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://hsckzy888.com",
+			"path": "/api.php/provide/vod/at/xml/"
+		},
+		"status": true
+	},
+	{
+		"id": "yuenanziyuan",
+		"name": "越南资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://vnzyz.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "️lebo",
+		"name": "️乐播",
+		"nsfw": true,
+		"api": {
+			"root": "https://lbapi9.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "laosebiziyuan",
+		"name": "老色逼资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://apilsbzy1.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "dadiziyuan",
+		"name": "大地资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://dadiapi.com",
+			"path": "/api.php"
+		},
+		"status": true
+	},
+	{
+		"id": "meishaonvziyuan",
+		"name": "美少女资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.msnii.com",
+			"path": "/api/xml.php"
+		},
+		"status": true
+	},
+	{
+		"id": "yinshuiji",
+		"name": "淫水机",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.xrbsp.com",
+			"path": "/api/json.php"
+		},
+		"status": true
+	},
+	{
+		"id": "senanguoziyuan",
+		"name": "色南国资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.sexnguon.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "huangguaziyuan",
+		"name": "黄瓜资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.avre06.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "chengren18+",
+		"name": "成人18+",
+		"nsfw": true,
+		"api": {
+			"root": "http://91md.me",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "fanjiaziyuan",
+		"name": "番茄资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://fqzy4.me",
+			"path": "/api.php/provide/vod/at/xml"
+		},
+		"status": true
+	},
+	{
+		"id": "Xxibaoziyuan",
+		"name": "X细胞资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.xxibaozyw.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "115ziyuan",
+		"name": "115资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://155api.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "baihuaziyuan",
+		"name": "百花资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://bhziyuan.com",
+			"path": "/api.php/provide/vod/at/xml"
+		},
+		"status": true
+	},
+	{
+		"id": "jingpinziyuan",
+		"name": "精品资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.jingpinx.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "senlinziyuan",
+		"name": "森林资源",
+		"nsfw": true,
+		"api": {
+			"root": "http://slapibf.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "yutuziyuan",
+		"name": "玉兔资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://apiyutu.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "souavziyuan",
+		"name": "souav资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.souavzy.vip",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "xingbaziyuan",
+		"name": "杏吧资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://xingba222.com",
+			"path": "/api.php/provide/vod/at/xml"
+		},
+		"status": true
+	},
+	{
+		"id": "fanhaoziyuan",
+		"name": "番号资源",
+		"nsfw": true,
+		"api": {
+			"root": "http://fhapi9.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "huangAVziyuan",
+		"name": "黄AV资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.pgxdy.com",
+			"path": "/api/xml.php"
+		},
+		"status": true
+	},
+	{
+		"id": "xiaojiziyuan",
+		"name": "小鸡资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.xiaojizy.live",
+			"path": "/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "CKziyuan",
+		"name": "CK资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://ckzy.me",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "️baipiao",
+		"name": "️白嫖",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.kxgav.com",
+			"path": "/api/json.php"
+		},
+		"status": true
+	},
+	{
+		"id": "danaiziziyuan",
+		"name": "大奶子资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://apidanaizi.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "shayuziyuan",
+		"name": "鲨鱼资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://shayuapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "91shipin",
+		"name": "91视频",
+		"nsfw": true,
+		"api": {
+			"root": "https://91av.cyou",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "lajiaoziyuan",
+		"name": "辣椒资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://apilj.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "shileyuan",
+		"name": "湿乐园",
+		"nsfw": true,
+		"api": {
+			"root": "https://xxavs.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "xiangnaier",
+		"name": "香奶儿",
+		"nsfw": true,
+		"api": {
+			"root": "https://www.gdlsp.com",
+			"path": "/api/json.php"
+		},
+		"status": true
+	},
+	{
+		"id": "jumaoziyuan",
+		"name": "橘猫资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://to.to-long.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "AIvin",
+		"name": "AIvin",
+		"nsfw": true,
+		"api": {
+			"root": "http://lbapiby.com",
+			"path": "/api.php/provide/vod/at/json"
+		},
+		"status": true
+	},
+	{
+		"id": "didiziyuan",
+		"name": "滴滴资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://api.ddapi.cc",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "aosikaziyuanwang",
+		"name": "奥斯卡资源网",
+		"nsfw": true,
+		"api": {
+			"root": "http://aosikazy.com",
+			"path": "/api.php/provide/vod"
+		},
+		"status": true
+	},
+	{
+		"id": "youyiziyuan",
+		"name": "优异资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://a.uezy.pw",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "naixiangxiangziyuan",
+		"name": "奶香香资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://naixxzy.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	},
+	{
+		"id": "jikunziyuan",
+		"name": "鸡坤资源",
+		"nsfw": true,
+		"api": {
+			"root": "https://jkunzyapi.com",
+			"path": "/api.php/provide/vod/"
+		},
+		"status": true
+	}
 ]
